@@ -94,8 +94,11 @@ bossDemonBuild.prototype.update = function(){
 
     // if the demon has 0 or less health, it will be destroyed and the victory screen will start
     if(this.health <= 0){
+        game.sound.stopAll();
         this.destroy();
-        textObj = TEXT_DATA[BOSS_FIGHT_WIN];
+        var roar = game.add.audio('boss-roar');
+        roar.play();
+        var textObj = TEXT_DATA[BOSS_FIGHT_WIN];
         textBox(game, game.camera.width/2, game.camera.height/2, 0.5, 0.5, !NAVIGABLE, textObj);
     }
 

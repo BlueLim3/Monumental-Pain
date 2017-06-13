@@ -56,7 +56,7 @@ Load.prototype = {
       let musicList = ['oworld-song','overworld.ogg','battle-song','engage.ogg','title-song','savior-among-us.ogg','gameover-song','failure.ogg','boss-song','all-ends-here.ogg'];
       
       // sound effects
-      let sfxList = ['bump','collide.ogg','attackSound','attack.ogg','jumpSound','jump.ogg','transformation','transformation.ogg','bossAttackSound','big-crash.ogg'];
+      let sfxList = ['bump','collide.ogg','attackSound','attack.ogg','jumpSound','jump.ogg','transformation','transformation.ogg','bossAttackSound','big-crash.ogg','boss-roar','roar.ogg'];
 
       
 

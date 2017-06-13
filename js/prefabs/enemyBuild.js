@@ -19,7 +19,7 @@ var enemyBuild = function(game, scaleX, scaleY, x, y, src, frame){
    this.vision = this.addChild(game.make.sprite(-128, 0, 'collider')); // add child sprite for vision
    this.vision.scale.set(200, 49);
    this.vision.anchor.set(.5,.5);
-   this.vision.alpha = .1;
+   this.vision.alpha = 0;
    game.physics.arcade.enable(this.vision);
 
    // set scale and anchor points for the enemies
